@@ -1,0 +1,112 @@
+{
+    "vim.useSystemClipboard": true,
+    "tabnine.experimentalAutoImports": true,
+    "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
+    "GitLive.Issue tracker integration": "Disabled",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.olean": true
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.sideBar.location": "right",
+    "workbench.colorCustomizations": {
+        // "editor.background": "#47126b",
+        // "editor.selectionBackground": "#ff9e00",
+        // "editor.foreground": "#c05299",
+        // "textBlockQuote.border": "#ff0000",
+        // "foreground": "#ffffff",
+        // "button.border": "#ac46a1",
+        // "button.background": "#973aa8",
+        // "toolbar.activeBackground": "#ff0000",
+        // "textBlockQuote.background": "#ff0000",
+        // "icon.foreground": "#ff9100",
+        // "tab.activeBackground": "#c05299",
+    },
+    "editor.fontSize": 16,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "Othsueh Tech Purple",
+    "workbench.iconTheme": "material-icon-theme",
+    "better-comments.tags": [
+    
+
+        {
+            "tag": "topic",
+            "color": "#ffed66",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "subtopic",
+            "color": "#deaaff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "!",
+            "color": "#ff9f1c",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#00a896",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#90e0ef",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#aafcb8",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#caff8a",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+}
